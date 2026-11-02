@@ -57,7 +57,7 @@ Import ergänzt, löscht aber nichts. Sicherungen enthalten nur Tagesabschlüsse
 keinen Code oder Kontodaten. Gerätezeit und Sicherungen sind vom Nutzer editierbar:
 kein manipulationssicherer Leistungsnachweis und kein anerkanntes Zertifikat.
 
-Acht Lektionen zum Einstieg; englische Kurse, KI-Tutor, Konten, Synchronisierung und native
+Zwölf Lektionen zum Einstieg; englische Kurse, KI-Tutor, Konten, Synchronisierung und native
 App sind spätere Arbeit. Die Sandbox ist keine Betriebssystem-VM mit garantierter
 RAM-Quote. [SECURITY.md](SECURITY.md) erklärt die Ausführungsgrenzen.
 
@@ -81,3 +81,11 @@ Server. Keine privaten Tabs, Dateien oder physischen Geräte. Belege: fünf Node
 Testgruppen im ursprünglichen Stand siehe [VERIFICATION.md](VERIFICATION.md).
 Der neue Lernpfad wird mit neun Node-Testgruppen und 31 Chrome-Prüfungen geprüft:
 [VERIFICATION-20261025.md](VERIFICATION-20261025.md). Entwurfsspeicherung ab 0.4.0: zehn Node-Testgruppen und acht zusätzliche Chromechecks, siehe [VERIFICATION-20261026.md](VERIFICATION-20261026.md).
+
+## Lernpfad erweitert — 02.11.2026
+
+Vier weitere eigene Übungen ergänzen boolesche Werte, frühe Rückgaben, Suche und gezieltes Zählen. Alle ursprünglichen Lektions-IDs, gespeicherten Abschlüsse und Entwürfe bleiben gültig. Der Offline-Cache erhält eine neue Versionskennung, damit aktualisierte Inhalte vorgeladen werden. Es werden keine bisherigen Fortschrittsdaten gelöscht.
+
+## Entwicklung und Übergabe
+
+[AGENTS.md](AGENTS.md) bündelt den Einstieg für Entwickler und KI-Agenten; [TESTING.md](TESTING.md) nennt reproduzierbare Prüfungen und deren Grenzen. Der aktuelle Übergabestand steht in [HANDOFF.md](HANDOFF.md).

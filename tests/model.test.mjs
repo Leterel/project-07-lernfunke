@@ -27,7 +27,7 @@ test('backup normalizes immutable keys and rejects malformed payloads atomically
  assert.throws(()=>validateEvents(Array(20001).fill(event('2026-10-20'))));
 });
 
-test('eight lessons on the same day advance course progress but count one streak day',()=>{
+test('twelve lessons on the same day advance course progress but count one streak day',()=>{
  const events=lessonIds.map(lesson=>({id:`${lesson}:2026-10-22`,lesson,day:'2026-10-22'}));
  const state=summary([...events,events[2]],'2026-10-22');
  assert.equal(state.completedLessons,lessonIds.length);assert.equal(state.days,1);assert.equal(state.current,1);assert.equal(state.events.length,lessonIds.length);
@@ -45,7 +45,7 @@ test('v1 imports retain original event identity and v2 retains all lesson comple
 });
 
 test('authored lesson fixtures cover boundary cases and each starter needs a correction',()=>{
- assert.equal(new Set(lessonIds).size,8);
+ assert.equal(new Set(lessonIds).size,12);
  for(const lesson of lessons){
   assert.equal(lesson.cases.length,4);assert.match(lesson.parameter,/^[a-z]+$/);
   const starter=new Function(lesson.parameter,lesson.starter);
