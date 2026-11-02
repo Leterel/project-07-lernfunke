@@ -4,7 +4,7 @@ Eigenständiger deutscher Prototyp: acht eigene JavaScript-Lektionen, echte
 Codeausführung, Tagesstreak und lokale Sicherungen. Keine Konten, Cloud,
 Werbung, Laufzeit-Abhängigkeiten oder Serverkosten. Keine fremden Kurse/Assets.
 
-Öffentlicher Quellcode: [Leterel/lernfunke](https://github.com/Leterel/lernfunke).
+Öffentlicher Quellcode: [Leterel/lernfunke](https://github.com/Leterel/project-07-lernfunke).
 Aktueller Stand: 0.4.0. Kurzanleitung: [START-HIER.md](START-HIER.md).
 
 ## Starten

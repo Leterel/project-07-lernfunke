@@ -48,7 +48,7 @@ falsche/richtige Lösungen, Netz-/Speicherisolation, direkte Fixture-Spoofingabw
 50 konkurrierende Schreibversuche, alte v1-Datenbank/Altbackup ohne Datenverlust,
 v2-Merge, Reload, Auswahl, Speicherfehler und Mobilansicht. Screenshots visuell
 geprüft. .gitignore schützt lokale env/Schlüssel/Keystores und Exportnamen.
-Öffentlicher Quellcode jetzt https://github.com/Leterel/lernfunke (frühere
+Öffentlicher Quellcode jetzt https://github.com/Leterel/project-07-lernfunke (frühere
 Einträge ohne Repository sind historische Stände). Anleitung START-HIER.md,
 Nachweise VERIFICATION-20261022.md; keine Cloud-/KI-/Store-/Zertifikatsbehauptung.
 

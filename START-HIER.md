@@ -26,7 +26,7 @@ Die erste Lösung lautet `return zahl * 2;`. Weitere Lösungen selbst ausprobier
 jede Aufgabe hat einen aufklappbaren Hinweis. Nicht index.html direkt öffnen,
 sondern die lokale Startadresse nutzen. Strg+C im Terminal beendet den Server.
 
-Öffentlicher Quellcode: [Leterel/lernfunke](https://github.com/Leterel/lernfunke).
+Öffentlicher Quellcode: [Leterel/lernfunke](https://github.com/Leterel/project-07-lernfunke).
 Kein Konto, kein Hosting, keine KI und keine Kosten pro Nutzung. Eigene kurze
 Übungslösungen eingeben; keine fremden Pakete. Der Browser-Sandbox fehlt eine
 harte RAM-Quote. Tagesstreak und Backups sind keine Prüfungszertifikate.
